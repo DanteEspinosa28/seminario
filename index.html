@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Informática - Dante Espinosa</title>
+    <style>
+        body {
+            background-color: #3a4149;
+            color: black;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .wrapper {
+            width: 90%;
+            max-width: 1200px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        header.top-header {
+            background-color: #3a4149;
+            color: white;
+            padding: 60px 80px 40px 80px;
+        }
+        header.top-header h1 {
+            font-size: 3.5em;
+            margin: 0;
+            font-weight: 300;
+        }
+        main.content-container {
+            background-color: #ffffff;
+            padding: 60px 80px;
+        }
+        h2 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            color: #333;
+            margin-top: 30px;
+        }
+        .work-list {
+            list-style: none;
+            padding: 0;
+        }
+        .work-item {
+            margin-bottom: 15px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border-left: 5px solid #3498db;
+            transition: 0.3s;
+        }
+        .work-item:hover {
+            background-color: #e9ecef;
+            transform: translateX(10px);
+        }
+        .work-item a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            font-size: 1.1em;
+            display: block;
+        }
+        .work-item span {
+            font-size: 0.9em;
+            color: #666;
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="top-header">
+            <h1>Mis Prácticas</h1>
+            <p>Seminario de Multimedia I - Licenciatura en Informática</p>
+        </header>
 
+        <main class="content-container">
+            
+            <h2>Práctica 11 de Marzo</h2>
+            <div class="work-list">
+                <div class="work-item">
+                    <a href="practica_11_marzo">Ver Práctica del 11 de Marzo</a>
+                    <span>Configuración de repositorio y permisos de edición.</span>
+                </div>
+            </div>
+
+            <h2>Trabajos Anteriores</h2>
+            <div class="work-list">
+                <div class="work-item">
+                    <a href="proyecto3/index.html">Práctica: La Meta (Mejora Continua)</a>
+                    <span>Análisis de video e inventarios.</span>
+                </div>
+            </div>
+
+            <h2>Ejercicios de Bootstrap 4</h2>
+            <div class="work-list">
+                <div class="work-item">
+                    <p><em>En espera de la carga de archivos de Bootstrap...</em></p>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>
