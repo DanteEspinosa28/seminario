@@ -20,11 +20,10 @@
             margin-bottom: 0; 
         }
 
-        /* Estilo general de las tarjetas (blancas con borde azul) */
+        /* Estilo general de las tarjetas */
         .card { 
             transition: transform 0.2s; 
             border: none;
-            border-left: 5px solid #0056b3; 
             height: 100%; 
             background-color: #ffffff;
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
@@ -35,7 +34,7 @@
             box-shadow: 0 8px 15px rgba(0,0,0,0.15); 
         }
 
-        /* Títulos de las secciones en azul */
+        /* Títulos de las secciones */
         .section-title { 
             border-bottom: 2px solid #0056b3; 
             padding-bottom: 10px; 
@@ -62,7 +61,7 @@
     <div class="jumbotron jumbotron-fluid text-center shadow">
         <div class="container">
             <h1 class="display-4 font-weight-bold">Mis Prácticas</h1>
-            <p class="lead">Seminario de Multimedia I - Dante Espinosa</p>
+            <p class="lead">Seminario de Multimedia I - Dante Espinosa [ESCRIBE AQUÍ TUS APELLIDOS]</p>
         </div>
     </div>
 
@@ -71,7 +70,7 @@
         <h2 class="section-title">Práctica Actual</h2>
         <div class="row mb-5">
             <div class="col-12">
-                <div class="card">
+                <div class="card" style="border-left: 5px solid #0056b3;">
                     <div class="card-body">
                         <h5 class="card-title text-primary font-weight-bold">Práctica del 11 de Marzo: Arquitectura Empresarial</h5>
                         <p class="card-text">Implementación de contenedores y rejilla de Bootstrap.</p>
@@ -83,52 +82,31 @@
 
         <h2 class="section-title">Tareas</h2>
         <div class="row mb-5">
-            <div class="col-12 col-md-6 mb-4">
-                <div class="card" style="border-left-color: #17a2b8;">
+            <div class="col-12">
+                <div class="card" style="border-left: 5px solid #17a2b8;">
                     <div class="card-body">
-                        <h6 class="text-muted">Ejercicio 1</h6>
-                        <h5 class="card-title text-info font-weight-bold">El Huerto Casero</h5>
-                        <a href="practica_ejercicios_bootstrap/ejercicio1.html" class="btn btn-outline-info btn-sm mt-2">Revisar Tarea</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 mb-4">
-                <div class="card" style="border-left-color: #17a2b8;">
-                    <div class="card-body">
-                        <h6 class="text-muted">Ejercicio 2</h6>
-                        <h5 class="card-title text-info font-weight-bold">Organización del Hogar</h5>
-                        <a href="practica_ejercicios_bootstrap/ejercicio2.html" class="btn btn-outline-info btn-sm mt-2">Revisar Tarea</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 mb-4">
-                <div class="card" style="border-left-color: #17a2b8;">
-                    <div class="card-body">
-                        <h6 class="text-muted">Ejercicio 3</h6>
-                        <h5 class="card-title text-info font-weight-bold">Menú de Cafetería</h5>
-                        <a href="practica_ejercicios_bootstrap/ejercicio3.html" class="btn btn-outline-info btn-sm mt-2">Revisar Tarea</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 mb-4">
-                <div class="card" style="border-left-color: #17a2b8;">
-                    <div class="card-body">
-                        <h6 class="text-muted">Ejercicio 4</h6>
-                        <h5 class="card-title text-info font-weight-bold">Biblioteca Comunitaria</h5>
-                        <a href="practica_ejercicios_bootstrap/ejercicio4.html" class="btn btn-outline-info btn-sm mt-2">Revisar Tarea</a>
+                        <h5 class="card-title text-info font-weight-bold">Tarea: Ejercicios Bootstrap 4</h5>
+                        <p class="card-text">Colección de ejercicios básicos de maquetación utilizando el sistema de columnas.</p>
+                        
+                        <div class="mt-3">
+                            <a href="practica_ejercicios_bootstrap/ejercicio1.html" class="btn btn-outline-info btn-sm mr-2 mb-2">Ejercicio 1: Huerto</a>
+                            <a href="practica_ejercicios_bootstrap/ejercicio2.html" class="btn btn-outline-info btn-sm mr-2 mb-2">Ejercicio 2: Hogar</a>
+                            <a href="practica_ejercicios_bootstrap/ejercicio3.html" class="btn btn-outline-info btn-sm mr-2 mb-2">Ejercicio 3: Cafetería</a>
+                            <a href="practica_ejercicios_bootstrap/ejercicio4.html" class="btn btn-outline-info btn-sm mr-2 mb-2">Ejercicio 4: Biblioteca</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <h2 class="section-title">Prácticas Pasadas</h2>
+        <h2 class="section-title" style="border-color: #6f42c1; color: #6f42c1;">Prácticas Pasadas</h2>
         <div class="row">
             <div class="col-12">
-                <div class="card" style="border-left-color: #6c757d;">
+                <div class="card" style="border-left: 5px solid #6f42c1;">
                     <div class="card-body">
-                        <h5 class="card-title text-secondary font-weight-bold">Proyecto 3: La Meta</h5>
+                        <h5 class="card-title font-weight-bold" style="color: #6f42c1;">Proyecto 3: La Meta</h5>
                         <p class="card-text">Análisis de procesos e inventarios mediante mejora continua.</p>
-                        <a href="proyecto3/index.html" class="btn btn-outline-secondary px-4">Ver Práctica Pasada</a>
+                        <a href="proyecto3/index.html" class="btn text-white px-4" style="background-color: #6f42c1;">Ver Práctica Pasada</a>
                     </div>
                 </div>
             </div>
