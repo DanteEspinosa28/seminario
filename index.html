@@ -8,9 +8,9 @@
   </head>
   
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="index.html">
-        <img src="img/logo1.png" height="40" style="width: auto;" class="d-inline-block align-middle mr-2" alt="Logo UNAM">
+        <img src="img/logo1.png" height="30" width="30" class="d-inline-block align-top mr-2" alt="Logo UNAM">
         Licenciatura en Informática
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuNavegacion">
@@ -18,13 +18,20 @@
       </button>
 
       <div class="collapse navbar-collapse" id="menuNavegacion">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Resumen</a>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+              Prácticas
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="practica11marzo/index.html">Práctica 11 de Marzo</a>
+            </div>
           </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
               Temas
@@ -32,17 +39,17 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="la_meta/index.html">Proyecto 3: La Meta</a>
               <a class="dropdown-item" href="ejercicios_bootstrap/index.html">Tarea: Ejercicios Bootstrap</a>
-              <a class="dropdown-item" href="practica11marzo/index.html">Práctica 11 de Marzo</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="practica17marzo/practica17marzo.html">Práctica Actual</a>
             </div>
           </li>
+          
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
               Participantes
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="cv/cv.html">Dante Alejandro Espinosa de los Monteros Cárdenas</a>
+              <a class="dropdown-item" href="cv/cv.html">Dante Alejandro Espinosa de los Monteros Cardenas</a>
             </div>
           </li>
         </ul>
