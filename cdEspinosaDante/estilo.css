@@ -1,0 +1,119 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "League Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    padding: 40px;
+}
+
+.titulo-principal {
+    font-size: 55px;
+    color: #233441;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    gap: 30px;
+}
+
+.elemento {
+    padding: 25px;
+    border: 5px solid #233441;
+    border-radius: 0;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.elemento img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.pmbok {
+    background-color: #3f7b95;
+}
+
+.principio {
+    background-color: #bb7366;
+}
+
+.valor {
+    background-color: #d1b898;
+}
+
+.elemento h2 {
+    font-size: 38px;
+    color: #000000;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.elemento p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+.elemento hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    margin: 20px 0 15px 0;
+}
+
+.leer-mas {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    display: inline-block;
+    align-self: flex-start;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-regresar {
+    margin-top: 60px;
+    padding: 12px 25px;
+    background-color: #233441;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-regresar:hover {
+    background-color: #3f7b95;
+}
