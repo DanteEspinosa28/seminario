@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* Paleta estricta de 5 colores */
+:root {
+    --color1: #002436;
+    --color2: #00465f;
+    --color3: #007491;
+    --color4: #00afcc;
+    --color5: #00f9ff;
+}
+
+body {
+    background-color: #ffffff;
+    color: var(--color1);
+}
+
+/* Modificando la barra de navegación de Bootstrap */
+.bg-dark {
+    background-color: var(--color1) !important;
+}
+
+h2, h5 {
+    color: var(--color2) !important;
+    font-weight: bold;
+}
+
+/* Diseño de las tarjetas adaptado a la paleta */
+.card {
+    border: 2px solid var(--color4);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 116, 145, 0.3); /* Sombra basada en color3 */
+    border-color: var(--color3);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid var(--color4);
+}
+
+/* Caja de información para el enlace de la paleta */
+.paleta-info {
+    background-color: var(--color5);
+    color: var(--color1);
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 6px solid var(--color2);
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.paleta-info a {
+    color: var(--color2);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.paleta-info a:hover {
+    color: var(--color1);
+    text-decoration: underline;
+}
