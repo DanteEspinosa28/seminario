@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conceptos de Evaluación</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Vinculación a tu nueva hoja de estilos -->
+    <link rel="stylesheet" href="estilos_evaluacion.css">
 </head>
-<body style="background-color: #f4f6f8;">
+<body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -21,7 +23,6 @@
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Resumen</a></li>
-                    
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Prácticas</a>
                         <div class="dropdown-menu">
@@ -30,20 +31,14 @@
                             <a class="dropdown-item" href="../cdEspinosaDante/cdEspinosaDante.html">Práctica Espinosa Dante</a>
                         </div>
                     </li>
-
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Temas</a>
                         <div class="dropdown-menu">
                             <h6 class="dropdown-header">Tarea: Ejercicios Bootstrap</h6>
                             <a class="dropdown-item" href="../practica_ejercicios_bootstrap/ejercicio1.html">Ejercicio 1</a>
-                            <a class="dropdown-item" href="../practica_ejercicios_bootstrap/ejercicio2.html">Ejercicio 2</a>
-                            <a class="dropdown-item" href="../practica_ejercicios_bootstrap/ejercicio3.html">Ejercicio 3</a>
-                            <a class="dropdown-item" href="../practica_ejercicios_bootstrap/ejercicio4.html">Ejercicio 4</a>
-                            <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="../proyecto3/lameta.html">Proyecto 3: La Meta</a>
                         </div>
                     </li>
-
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Evaluación</a>
                         <div class="dropdown-menu">
@@ -52,7 +47,6 @@
                             <a class="dropdown-item" href="relaciones_servicio.html">Conceptos de las Relaciones de Servicio</a>
                         </div>
                     </li>
-                    
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Participantes</a>
                         <div class="dropdown-menu">
@@ -65,64 +59,69 @@
     </nav>
 
     <div class="container mt-5 mb-5">
-        <h2 class="mb-4 text-center" style="color: #233441; font-weight: bold;">Conceptos Generales</h2>
+        <h2 class="mb-4 text-center">Conceptos Generales</h2>
         
+        <!-- Requerimiento del profesor: Link de la paleta en la Entrega 1 -->
+        <div class="paleta-info text-center">
+            Paleta de colores del sitio web: 
+            <a href="https://coolors.co/002436-00465f-007491-00afcc-00f9ff" target="_blank">Ver Paleta Seleccionada</a>
+        </div>
+
         <div class="row row-cols-1 row-cols-md-2 g-4">
-            
             <div class="col">
-                <div class="card h-100 shadow-sm border-0">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/servicio.jpg" class="card-img-top" alt="Servicio">
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #3f7b95; font-weight: bold;">Servicio (Service)</h5>
+                        <h5 class="card-title">Servicio (Service)</h5>
                         <p class="card-text text-justify">Un medio para habilitar la cocreación de valor facilitando los resultados que los clientes desean lograr, sin que el cliente asuma los costos y riesgos específicos asociados.</p>
                     </div>
                 </div>
             </div>
-
             <div class="col">
-                <div class="card h-100 shadow-sm border-0">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/utilidad.jpg" class="card-img-top" alt="Utilidad">
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #3f7b95; font-weight: bold;">Utilidad (Utility)</h5>
+                        <h5 class="card-title">Utilidad (Utility)</h5>
                         <p class="card-text text-justify">La funcionalidad ofrecida por un producto o servicio para satisfacer una necesidad particular. Comúnmente se resume como "lo que hace el servicio" para determinar si es "adecuado para el propósito".</p>
                     </div>
                 </div>
             </div>
-
             <div class="col">
-                <div class="card h-100 shadow-sm border-0">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/cliente.jpg" class="card-img-top" alt="Cliente">
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #3f7b95; font-weight: bold;">Cliente (Customer)</h5>
+                        <h5 class="card-title">Cliente (Customer)</h5>
                         <p class="card-text text-justify">El rol que define los requisitos para un servicio y asume la responsabilidad de los resultados del consumo de dicho servicio.</p>
                     </div>
                 </div>
             </div>
-
             <div class="col">
-                <div class="card h-100 shadow-sm border-0">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/usuario.jpg" class="card-img-top" alt="Usuario">
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #3f7b95; font-weight: bold;">Usuario (User)</h5>
+                        <h5 class="card-title">Usuario (User)</h5>
                         <p class="card-text text-justify">El rol que utiliza o consume los servicios proporcionados en el día a día para llevar a cabo sus tareas.</p>
                     </div>
                 </div>
             </div>
-
             <div class="col">
-                <div class="card h-100 shadow-sm border-0">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/patrocinador.jpg" class="card-img-top" alt="Patrocinador">
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #3f7b95; font-weight: bold;">Patrocinador (Sponsor)</h5>
+                        <h5 class="card-title">Patrocinador (Sponsor)</h5>
                         <p class="card-text text-justify">El rol que autoriza y aprueba el presupuesto para el consumo del servicio, garantizando la viabilidad financiera.</p>
                     </div>
                 </div>
             </div>
-
             <div class="col">
-                <div class="card h-100 shadow-sm border-0">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/producto.jpg" class="card-img-top" alt="Producto">
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #3f7b95; font-weight: bold;">Producto (Product)</h5>
+                        <h5 class="card-title">Producto (Product)</h5>
                         <p class="card-text text-justify">Una configuración de los recursos de una organización diseñados para ofrecer valor a un consumidor, que a menudo se empaqueta y se presenta para satisfacer una demanda del mercado.</p>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
